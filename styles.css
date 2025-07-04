@@ -42,15 +42,15 @@ header {
 
 /* Style for the tagline in the header */
 .header-tagline {
-  font-size: 2.2rem; /* Make the tagline a bit bigger */
-  color: #1a1a1a;    /* Keep the tagline words black */
+  font-size: 2.2rem;
+  color: #1a1a1a;
   font-weight: bold;
   margin: 0 2rem;
   text-align: center;
   flex: 1;
-  /* Add a subtle yellow glow and a soft dark shadow to make black text pop */
   text-shadow: 2px 2px 8px #fdd83588, 0 2px 12px #00000022;
-  letter-spacing: 1px; /* Slightly more space between letters */
+  letter-spacing: 1px;
+  /* Remove background and border-radius so only the yellow header shows */
 }
 
 /* Hero Section Styles */
@@ -291,6 +291,10 @@ footer {
     font-size: 1rem;
   }
 }
+    padding: 1rem 0.3rem;
+    font-size: 1rem;
   }
 }
+
+
 
